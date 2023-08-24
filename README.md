@@ -1,6 +1,6 @@
 # vim-twee-sugarcube
 
-A vim syntax highlighting plugin for [Sugarcube 2](https://www.motoslave.net/sugarcube/2/docs/) a [Twine/Twee](http://twinery.org/) story format.
+A [Vim](https://github.com/vim/vim) syntax highlighting plugin for [Sugarcube 2](https://www.motoslave.net/sugarcube/2/docs/) a [Twine/Twee](http://twinery.org/) story format.
 
 Enables highlighting for both SugarCube 2 and HTML syntax in `.tw` and `.twee` files.
 
