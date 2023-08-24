@@ -15,6 +15,6 @@ Enables highlighting for both SugarCube 2 and HTML syntax in `.tw` and `.twee` f
 - [Plug](https://github.com/junegunn/vim-plug): `Plug 'mcombeau/vim-twee-sugarcube'`
 - [Vundle](https://github.com/VundleVim/Vundle.vim): `Plugin 'mcombeau/vim-twee-sugarcube'`
 
-## Contributing
+## Contribute
 
 Feel free to submit a pull request or open an issue for any unexpected highlighting issues!
