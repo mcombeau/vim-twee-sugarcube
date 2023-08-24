@@ -31,7 +31,7 @@ syn match	tweeEOL		'\\$'
 
 " Twee Passages and Variables
 syn match tweePassage	"^::.*$" contains=tweePassageTitle,tweeTag
-syn match tweeVariable	"[$_]\v[a-zA-Z.]*" contained
+syn match tweeVariable	"[$_]\v[a-zA-Z.]*"
 syn match tweeSubVariable	"[.]\w*" contained containedin=tweeVariable
 syn match tweeString	"\(["']\)[^"']*\1" contained containedin=tweeLink
 syn match tweeNumber	"\d\+" contained
