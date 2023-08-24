@@ -17,12 +17,12 @@ endif
 " ---- Define Syntax Elements
 
 " Twee Keywords
-syn	keyword	tweeConditional	if not else elseif contained
-syn	keyword	tweeRepeat		for break continue contained
-syn	keyword	tweeLabel		switch case default contained
-syn	keyword	tweeOperator	to is isnot eq neq gt gte lt lte not and or def ndef contained
-syn	keyword	tweeKeyword		capture set unset run script include nobr print silently type button checkbox cycle link linkappend linkprepend linkreplace listbox numberbox radiobutton textarea textbox actions back choice return addclass append copy prepend remove removeclass replace toggleclass audio cacheaudio createplaylist masteraudio playlist removeaudiogroup removeplaylist waitforaudio done goto repeat stop timed widget contained
-syn keyword tweeBool		true false contained
+syn	keyword	tweeConditional	if not else elseif containedin=tweeMacro
+syn	keyword	tweeRepeat		for break continue containedin=tweeMacro
+syn	keyword	tweeLabel		switch case default containedin=tweeMacro
+syn	keyword	tweeOperator	to is isnot eq neq gt gte lt lte not and or def ndef containedin=tweeMacro
+syn	keyword	tweeKeyword		capture set unset run script include nobr print silently type button checkbox cycle link linkappend linkprepend linkreplace listbox numberbox radiobutton textarea textbox actions back choice return addclass append copy prepend remove removeclass replace toggleclass audio cacheaudio createplaylist masteraudio playlist removeaudiogroup removeplaylist waitforaudio done goto repeat stop timed widget containedin=tweeMacro
+syn keyword tweeBool		true false containedin=TweeMacro
 
 " Twee Comments and Escape Character
 syn region	tweeComment	start="<!--" end="-->"
