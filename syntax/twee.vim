@@ -1,14 +1,13 @@
 " Vim syntax file
 " Language: Twee + Sugarcube 2
 " Maintainer: mcombeau
-" Latest Revision: 24 August 2023
+" Latest Revision: 28 August 2023
 " Based on: https://github.com/PolyCement/vim-tweego/
 " Based on: https://gist.github.com/thricedotted/6590696
 
 " Include HTML syntax highlighting
 runtime! syntax/html.vim
 unlet b:current_syntax
-syn spell default " HTML enables spell-checking globally, turn it off
 
 if exists("b:current_syntax")
     finish
