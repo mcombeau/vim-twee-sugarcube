@@ -11,5 +11,4 @@ augroup END
 augroup HighlightBadSpellingInTweeFile
   autocmd!
   autocmd FileType twee set spell 
-  autocmd FileType twee hi SpellBad cterm=reverse
 augroup END
